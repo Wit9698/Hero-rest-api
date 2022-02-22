@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import pl.coderslab.hero.model.Hero;
 import pl.coderslab.hero.repository.HeroRepository;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.stream.IntStream;
 
